@@ -1,0 +1,11 @@
+# Install the role from ansible galaxy using this command- "ansible-galaxy role install bsmeding.nautobot_docker" 
+# The role will be present in ~/.ansible/roles folder in your local from there you can perform ansible-galaxy commands like list, remove, delete 
+
+---
+- hosts: all
+  become: true
+  roles:
+   - bsmeding.nautobot_docker
+
+
+      
